@@ -1,0 +1,5 @@
+{
+  "name": "Bucklescript-TEA-samples",
+  "sources": "src",
+  "bs-dependencies": ["bucklescript-tea"]
+}

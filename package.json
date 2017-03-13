@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "clean": "bsb clean",
+    "clean:all": "bsb -clean-world",
+    "build": "bsb",
+    "build:all": "bsb -make-world",
+    "build:client": "browserify --standalone=Samples --outfile=lib/js/src/app.js lib/js/src/samples.js"
+  },
+  "dependencies": {
+    "bucklescript-tea": "^0.2.4"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.4.3",
+    "browserify": "^14.0.0"
+  }
+}
