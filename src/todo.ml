@@ -239,7 +239,7 @@ let infoFooter =
           a [ href "https://github.com/overminddl1" ] [ text "OvermindDl1" ]
         ]
     ; p []
-        [ text "Part of";
+        [ text "Part of ";
           a [ href "http;//todomvc.com" ] [ text "TodoMVC" ]
         ]
     ]
