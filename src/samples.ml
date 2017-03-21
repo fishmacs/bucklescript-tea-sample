@@ -5,4 +5,5 @@ let todo = let open Todo in main
 let todo_optimized = let open Todo_optimized in main
 let embeddedCounters = let open EmbeddedCounters in main
 let embeddedCountersParts = let open EmbeddedCountersParts in main
-
+let clock = let open Clock in main
+let counter_navigation = let open Counter_navigation in main
