@@ -10,3 +10,6 @@ let counter_navigation = Counter_navigation.main
 let clock_svg = Clock_svg.main
 let random = Random_dice.main
 let random_color = Random_color.main
+let clicker = Clicker.main
+let json = Json_app.main
+
