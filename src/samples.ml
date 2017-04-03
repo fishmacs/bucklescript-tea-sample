@@ -12,4 +12,8 @@ let random = Random_dice.main
 let random_color = Random_color.main
 let clicker = Clicker.main
 let json = Json_app.main
+let bookreader = Bookreader.main
+let gtpollute = Gtpollute.main
+
+
 
