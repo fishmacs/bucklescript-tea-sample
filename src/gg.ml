@@ -1,7 +1,5 @@
 open Tea
 
-module IntMap = Map.Make(struct type t = int let compare = compare end)
-
 module IntPairMap = Map.Make(struct type t = int*int let compare = compare end)
 
 let maxInfluence = 255
